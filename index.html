@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trystan Minter - Electronic Systems Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .header-content h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header-content p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+
+        .contact-info span {
+            font-size: 1.1rem;
+            background: rgba(255,255,255,0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+        }
+
+        /* Navigation Grid */
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+
+        .nav-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            background: rgba(255,255,255,1);
+        }
+
+        .nav-card h2 {
+            color: #667eea;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .nav-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .nav-card .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(0,0,0,0.2);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .nav-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Trystan Minter</h1>
+                <p>Electronic Systems Engineering Technology Student</p>
+                <div class="contact-info">
+                    <span>📧 MinterTrystan@gmail.com</span>
+                    <span>📱 281-710-2556</span>
+                    <span>🎓 Expected Graduation: Fall 2025</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Grid -->
+    <main>
+        <div class="container">
+            <div class="nav-grid">
+                <a href="about.html" class="nav-card">
+                    <div class="icon">👨‍💼</div>
+                    <h2>About Me</h2>
+                    <p>Learn about my background, education at Texas A&M University, and passion for electronic systems engineering.</p>
+                </a>
+
+                <a href="hydropower.html" class="nav-card">
+                    <div class="icon">⚡</div>
+                    <h2>Pumped Storage Hydropower Design</h2>
+                    <p>Leading a five-member electrical engineering team in Greece to design grid-integrated renewable energy systems.</p>
+                </a>
+
+                <a href="tamu-tech.html" class="nav-card">
+                    <div class="icon">🔧</div>
+                    <h2>Texas A&M Technology Services</h2>
+                    <p>My role as Lead Student Technician, mentoring teams and solving complex technical challenges across campus.</p>
+                </a>
+
+                <a href="capstone.html" class="nav-card">
+                    <div class="icon">🌐</div>
+                    <h2>Capstone Networking Kit</h2>
+                    <p>Advanced ESP32 SoC integration project with step-up/down converters and USB-C data transmission.</p>
+                </a>
+
+                <a href="daughter-board.html" class="nav-card">
+                    <div class="icon">🔬</div>
+                    <h2>Daughter Board for ETS 364</h2>
+                    <p>PCB design and comprehensive testing system for analog-to-digital converter implementation.</p>
+                </a>
+
+                <a href="rf-antenna.html" class="nav-card">
+                    <div class="icon">📡</div>
+                    <h2>RF Antenna Design</h2>
+                    <p>Designing RF filters and isometric antennas for FM radio band frequency reception systems.</p>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Trystan Minter. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
